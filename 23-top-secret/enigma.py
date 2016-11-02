@@ -29,7 +29,7 @@ def main():
       keyletter = key[keyindex]
       keynums.append(letter_to_number(keyletter.lower()))
 
-   print msg
+   #print msg
 
    keyindex = 0
    for msgindex in range(len(msg)):
